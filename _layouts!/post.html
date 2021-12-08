@@ -1,0 +1,18 @@
+---
+layout: wrapper
+author: 'Alexandre Vieira'
+---
+
+{% if page.title == "20 Ways To Smile"%}
+  This is my first post ☝
+{% elsif page.title == "This is a new Title" %}
+  This is my Second Post✌
+{% else %}
+  Whatever ...😑
+{% endif %}
+<p>{{ page.title }}</p>
+<h3>{{ page.author }}</h3>
+<p>{{ site.description }}</p>
+<p>{{ content }}</p>
+<hr>
+<!-- {{ content }} -->
